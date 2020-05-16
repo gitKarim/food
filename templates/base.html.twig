@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    {% block meta %} {% include 'partials/meta.html.twig' %} {% endblock %}
+
+
+</head>
+{% include 'partials/header.html.twig' %}
+<body class="page-template-default page page-id-41 logged-in wp-embed-responsive theme-ranna woocommerce-no-js rtwpvg header-style-2 footer-style-2 no-banner no-sidebar right-sidebar product-grid-view elementor-default elementor-kit-1675 elementor-page elementor-page-41">
+
+{% block body %}{% endblock %}
+
+        {% block javascripts %}{% endblock %}
+{% include 'partials/footer.html.twig' %}
+    </body>
+</html>
